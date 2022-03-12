@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CarListTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-03-12T12:09:36" hostname="DESKTOP-TP45IB0" time="0.037">
+<testsuite name="CarListTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-03-12T12:43:50" hostname="DESKTOP-TP45IB0" time="0.037">
   <properties/>
   <testcase name="whenElementRemovedByIndexThenSizedMustBeDecreased()" classname="CarListTest" time="0.018"/>
-  <testcase name="wnehListClearedThenSizeMutBe0()" classname="CarListTest" time="0.001"/>
-  <testcase name="methodGetReturnRightValue()" classname="CarListTest" time="0.002"/>
+  <testcase name="wnehListClearedThenSizeMutBe0()" classname="CarListTest" time="0.0"/>
+  <testcase name="methodGetReturnRightValue()" classname="CarListTest" time="0.001"/>
   <testcase name="insertIntoFirstPos()" classname="CarListTest" time="0.001"/>
   <testcase name="whenElementRemovedThenSizedMustBeDecreased()" classname="CarListTest" time="0.001"/>
   <testcase name="whenIndexOutOfBoundsThenTrownException()" classname="CarListTest" time="0.008"/>
-  <testcase name="insertIntoLastPos()" classname="CarListTest" time="0.001"/>
-  <testcase name="whenNonExistentElementRemovedThenReturnFalse()" classname="CarListTest" time="0.002"/>
-  <testcase name="whenAdd100ElThenSizeMustBe100()" classname="CarListTest" time="0.0"/>
+  <testcase name="insertIntoLastPos()" classname="CarListTest" time="0.0"/>
+  <testcase name="whenNonExistentElementRemovedThenReturnFalse()" classname="CarListTest" time="0.001"/>
+  <testcase name="whenAdd100ElThenSizeMustBe100()" classname="CarListTest" time="0.001"/>
   <testcase name="insertIntoMiddle()" classname="CarListTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.lang.IndexOutOfBoundsException
-	at CarArrayList.checkIndex(CarArrayList.java:60)
-	at CarArrayList.get(CarArrayList.java:8)
+	at CarLinkedList.getNode(CarLinkedList.java:89)
+	at CarLinkedList.get(CarLinkedList.java:8)
 	at CarListTest.whenIndexOutOfBoundsThenTrownException(CarListTest.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
